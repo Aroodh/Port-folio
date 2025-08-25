@@ -65,7 +65,7 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Data Science</h4>
+                  <h4 className="font-semibold text-lg">AI/ML</h4>
                   <p className="text-muted-foreground">
                     Designs and deploys scalable, data-driven solutions for analytics and AI.
                   </p>

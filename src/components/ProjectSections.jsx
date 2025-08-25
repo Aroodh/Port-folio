@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: " The Plant Disease Analyzer",
+    description: "This is Advance machine learning-based Project to detect and identify plant disease",
+    image: "/projects/Project1.jpeg",
+    tags: ["AI/ML", "Python"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Project Management System",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "Project Camp Backend is a RESTful API service designed to support collaborative project management.The system enables teams to organize projects,manage tasks with subtasks,maintain project notes,and handle user authentication with role-based access control",
+    image: "/projects/project3.jpg",
+    tags: ["Express.js", "node.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: " Time Series Analysis and Forecasting for Stock Market",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "The goal is to analyze historical price trends, identify patterns, and build predictive models that can estimate future stock prices.",
+    image: "/projects/project2.jpg",
+    tags: ["Python", "Scikit-learn", "TensorFlow/Keras"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -80,7 +80,7 @@ export const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <ExternalLink size={20} />
+                      
                     </a>
                     <a
                       href={project.githubUrl}
